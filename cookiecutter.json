@@ -1,0 +1,10 @@
+{
+    "organisation_name": "VoteIT",
+    "instance_name": "{{cookiecutter.organisation_name.lower()}}",
+    "repo_name": "{{cookiecutter.instance_name}}_buildout",
+    "server_user": "voteit",
+    "install_dir": "/home/{{cookiecutter.server_user}}/srv/{{cookiecutter.repo_name}}",
+    "domain_name": "{{cookiecutter.instance_name}}.voteit.se",
+    "_copy_without_render": [
+    ]
+}
